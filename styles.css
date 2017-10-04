@@ -1,0 +1,111 @@
+body {
+	font-family: Avenir Next;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: gold;
+	transition: 0.3s;
+}
+
+#container {
+	background: url("https://images.unsplash.com/photo-1472148439583-1f4cf81b80e0?dpr=1&auto=compress,format&fit=crop&w=2689&h=&q=80&cs=tinysrgb&crop=") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 673px;
+}
+
+#container #nav {
+	color: black;
+	list-style: none;
+	text-align: center;
+	padding: 20 0 20 0;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+#container #nav li {
+	display: inline-block;
+	padding-right: 50px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#container #nav li:hover {
+	color: #e74c3c;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+#container #box {
+	width: 550px;
+	height: 500px;
+	background-color: black;
+	opacity: 0.8;
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 60px;
+	border-radius: 2px;
+}
+
+#container #box #image {
+	width: 180px;
+	height: 180px;
+	border-radius: 100px;
+	margin: 0 auto;
+	margin-top: 20px;
+	user-drag: none;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+#container #box #name {
+	font-weight: 600;
+	font-size: 32px;
+	margin-bottom: -10px;
+}
+
+#divider {
+	width: 375px;
+	height: 0.75px;
+	opacity: 0.2;
+	background-color: white;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+#logos {
+	width: 250px;
+	height: 40px;
+	margin: 0 auto;
+	list-style: none;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#logos li {
+	display: inline-block;
+	font-size: 25px;
+	padding-right: 30px;
+}
+
+#logos li:hover {
+	transform: scale(1.1);
+	transition: 0.5s;
+	color: gold;
+}
