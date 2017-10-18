@@ -74,7 +74,6 @@ a {
 
 #publications {
 	width: 100%;
-	height: 500px;
 	background-color: #7EC9AC;
 	text-align: center;
 }
@@ -87,20 +86,104 @@ a {
 }
 
 #publications #subtitle {
-	color: rgb(220, 219, 219);
+	color: rgb(230, 228, 228);
 	font-size: 15px;
 	letter-spacing: 2;
-	margin-top: -27px;
+	margin-top: -22px;
 }
 
 #publications #about {
 	width: 610px;
 	margin: 0 auto;
-	font-size: 17px;
-	color: rgb(233, 231, 231);
+	font-size: 18px;
+	/* color: rgb(237, 235, 235); */
+	color: rgb(224, 244, 236);
+	padding-bottom: 50px;
+	font-weight: 400;
+	padding-top: 10px;
 }
 
 #publications #about span {
 	font-weight: 600;
 	color: rgb(244, 244, 244);
+}
+
+#publications #art {
+	width: 100%;
+	margin-top: 50px;
+}
+
+#publications #art nav li {
+	display: inline-table;
+}
+
+#publications #art #container {
+	display: inline-block;
+	margin-bottom: 30px;
+}
+
+#card {
+	width: 300px;
+	height: 380px;
+	background-color: #fff;
+	overflow: hidden;
+	margin: 20px 20px;
+	border-radius: 5px;
+	box-shadow: 1px 2px 4px rgba(0,0,0,.2);
+}
+
+#publications #art #container li:nth-child(2) {
+	transform: scale(1.07);
+}
+
+#card img {
+	width: 60%;
+	margin-left: 10px;
+}
+
+#card:hover {
+	box-shadow: 2px 2px 4px rgba(0,0,0,.3);
+	transform: scale(1.02);
+	transition: 0.5s;
+}
+
+#card #source {
+	font-size: 15px;
+	text-align: left;
+	margin-left: 10px;
+}
+
+#card #source span {
+	color: #03a87c;
+	font-weight: 500;
+}
+
+#card #cardTitle {
+	font-size: 20px;
+	font-weight: 700;
+	text-align: left;
+	margin-left: 10px;
+}
+
+#card #cardSubTitle {
+	font-size: 17px;
+	font-weight: 400;
+	text-align: left;
+	margin-left: 10px;
+	color: rgba(0,0,0,.54);
+	margin-top: -10px;
+}
+
+#card #extras {
+	font-size: 14px;
+	float: left;
+	margin-left: 10px;
+	color: rgba(0,0,0,.54);
+	margin-top: -5px;
+}
+
+#projects {
+	width: 100%;
+	height: 300px;
+	background-color: #565656;
 }
