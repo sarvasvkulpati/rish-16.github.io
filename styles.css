@@ -104,7 +104,7 @@ a {
 #publications #about {
 	width: 610px;
 	margin: 0 auto;
-	font-size: 17px;
+	font-size: 17.5px;
 	color: rgb(224, 244, 236);
 	padding-bottom: 50px;
 	font-weight: 400;
@@ -124,7 +124,7 @@ a {
 
 #publications #art {
 	width: 100%;
-	margin-top: 50px;
+	padding-top: 50px;
 }
 
 #publications #art nav li {
@@ -133,7 +133,7 @@ a {
 
 #publications #art #container {
 	display: inline-block;
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 }
 
 #card {
