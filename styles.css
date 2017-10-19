@@ -319,6 +319,11 @@ a {
 	margin-top: -4px;
 }
 
+#box #name #projectTitle:hover {
+	text-decoration: underline;
+	transition: 0.5s;
+}
+
 #box #projectDesc {
 	width: 370px;
 	font-weight: 400;
