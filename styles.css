@@ -48,6 +48,10 @@ a {
 	color: rgb(182, 182, 182);
 }
 
+#intro #introPara span:hover {
+	border-bottom: 1px solid rgb(182, 182, 182);
+}
+
 #intro #introPara a {
 	color: rgb(182, 182, 182);
 }
@@ -122,6 +126,11 @@ a {
 	color: rgb(244, 244, 244);
 }
 
+#publications #about span:hover {
+	border-bottom: 1px solid rgba(244, 244, 244, 0.4);
+	transition: 0.5s;
+}
+
 #publications #art #container {
 	width: 100%;
 	padding-top: 50px;
@@ -147,7 +156,7 @@ a {
 }
 
 #card img {
-	width: 60%;
+	height: 120px;
 	margin-left: 10px;
 }
 
@@ -157,19 +166,51 @@ a {
 	transition: 0.5s;
 }
 
-#card #source {
-	font-size: 15px;
+#card #account {
+	width: 275px;
+	display: inline-flex;
+	margin: 5px;
+	padding-top: 10px;
+	margin-left: -17px;
+}
+
+#card #account #profPic {
+	width: 35px;
+	height: 35px;
+	border-radius: 100px;
+	margin-top: 2px;
+}
+
+#card #account #source {
+	font-size: 12px;
 	text-align: left;
 	margin-left: 10px;
 }
 
-#card #source span {
+#card #account #source span {
 	color: #03a87c;
 	font-weight: 500;
 }
 
+#card #account #time {
+	font-size: 11px;
+	margin-left: 10px;
+	margin-top: -10px;
+}
+
+#card #account #time span {
+	font-size: 7px;
+	margin: 0 5px;
+	color: rgba(37, 37, 37, 0.824);
+}
+
+#card #details {
+	text-align: left;
+	margin-top: -10px;
+}
+
 #card #cardTitle {
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 700;
 	text-align: left;
 	margin-left: 10px;
