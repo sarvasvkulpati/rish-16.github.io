@@ -8,7 +8,7 @@ a {
 	text-decoration: none;
 }
 
-@media screen {
+@media screen and (min-width: 400px) {
 
 	#header {
 		width: 100%;
