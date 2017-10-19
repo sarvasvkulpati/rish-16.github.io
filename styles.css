@@ -35,7 +35,7 @@ a {
 }
 
 #intro #introPara {
-	width: 600px;
+	width: 55%;
 	margin: 0 auto;
 	padding-top: 60px;
 	font-size: 17px;
@@ -57,7 +57,7 @@ a {
 }
 
 #intro #media {
-	width: 500px;
+	width: 70%;
 	margin: 0 auto;
 	margin-top: 40px;
 	margin-bottom: 70px;
@@ -70,7 +70,7 @@ a {
 
 #intro #media ul li {
 	display: inline-block;
-	margin: 0 30px;
+	margin: 0 5%;
 	font-size: 23px;
 	color: rgb(194, 192, 192);
 }
@@ -106,7 +106,7 @@ a {
 }
 
 #publications #about {
-	width: 610px;
+	width: 55%;
 	margin: 0 auto;
 	font-size: 17.5px;
 	color: rgb(224, 244, 236);
@@ -134,15 +134,12 @@ a {
 #publications #art #container {
 	width: 100%;
 	padding-top: 50px;
+	display: inline-block;
+	margin-bottom: 15px;
 }
 
 #publications #art nav li {
 	display: inline-table;
-}
-
-#publications #art #container {
-	display: inline-block;
-	margin-bottom: 15px;
 }
 
 #card {
@@ -255,7 +252,7 @@ a {
 }
 
 #projects #about {
-	width: 620px;
+	width: 55%;
 	margin: 0 auto;
 	font-size: 17.5px;
 	color: rgb(237, 237, 237);
@@ -283,13 +280,13 @@ a {
 #projects #art #container {
 	width: 100%;
 	padding-top: 50px;
+	margin-bottom: 15px;
 	list-style: none;
 }
 
 #box {
 	text-align: left;
-	width: 400px;
-	height: 150px;
+	width: 390px;
 	border-radius: 5px;
 	background-color: #fff;
 	box-shadow: 2px 2px 4px rgba(0,0,0,.3);
@@ -325,9 +322,9 @@ a {
 }
 
 #box #projectDesc {
-	width: 370px;
+	width: 90%;
 	font-weight: 400;
-	font-size: 14px;
+	font-size: 13px;
 	margin-left: 20px;
 	margin-top: -10px;
 	color: #586069;
