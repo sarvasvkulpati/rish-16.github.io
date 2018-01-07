@@ -8,7 +8,7 @@ a {
 	text-decoration: none;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 310px) {
 
 	#header {
 		width: 100%;
@@ -297,7 +297,7 @@ a {
 
 	#box:hover {
 		transform: scale(1.05);
-		transition: 0.5s;	
+		transition: 0.5s;
 	}
 
 	#box #name {
@@ -357,120 +357,54 @@ a {
 		text-align: center;
 	}
 
-}	
+}
 
 /* ---------------------------------------------------------------------------------------------- */
 
-@media (min-width: 400px) {
+@media (min-width: 310px) {
 
 	#header #name {
-		font-size: 40px;
-		font-weight: 600;
-		letter-spacing: 10;
-		padding-top: 50px;
+		letter-spacing: 7;
 	}
 
 	#header #job {
 		color: gray;
-		margin-top: -37px;
-		font-size: 15px;
-		padding-bottom: 35px;
+		margin-top: -45px;
+		font-size: 12px;
+		padding-bottom: 50px;
+	}
+
+	#intro #media {
+		width: 90%;
+		margin: 0 auto;
+		margin-top: 40px;
+		margin-bottom: 50px;
 	}
 
 	#intro #introPara {
-		width: 87%;
-		margin: 0 auto;
-		padding-top: 60px;
-		font-size: 17px;
-		color: gray;
-		line-height: 32px;
+		width: 90%;
 	}
 
 	#publications #about {
-		width: 87%;
-		margin: 0 auto;
-		font-size: 17.5px;
-		color: rgb(224, 244, 236);
-		padding-bottom: 50px;
-		font-weight: 400;
-		padding-top: 10px;
-		line-height: 32px;
+		width: 90%;
+	}
+
+	#card {
+		width: 300px;
+		height: 355px;
+		background-color: #fff;
+		overflow: hidden;
+		margin: 7px 7px;
+		border-radius: 5px;
+		box-shadow: 1px 2px 4px rgba(0,0,0,.2);
+	}
+
+	#projects #box {
+		width: 300px;
 	}
 
 	#projects #about {
-		width: 87%;
-		margin: 0 auto;
-		font-size: 17.5px;
-		color: rgb(237, 237, 237);
-		padding-bottom: 50px;
-		font-weight: 400;
-		padding-top: 10px;
-		line-height: 32px;
-	}
-
-	#box {
-		text-align: left;
-		width: 310px;
-		border-radius: 5px;
-		background-color: #fff;
-		box-shadow: 2px 2px 4px rgba(0,0,0,.3);
-		margin: 15px auto;
-	}
-
-	#box:hover {
-		transform: scale(1.05);
-		transition: 0.5s;	
-	}
-
-	#box #name {
-		display: inline-flex;
-		margin: 15px 0 5px 15px;
-	}
-
-	#box #name i {
-		margin-right: 10px;
-		font-weight: lighter;
-		font-size: 14px;
-	}
-
-	#box #name #projectTitle {
-		font-weight: 500;
-		font-size: 18px;
-		color: #0366d6;
-		margin-top: -4px;
-	}
-
-	#box #name #projectTitle:hover {
-		text-decoration: underline;
-		transition: 0.5s;
-	}
-
-	#box #projectDesc {
 		width: 90%;
-		font-weight: 400;
-		font-size: 13px;
-		margin-left: 15px;
-		margin-top: -10px;
-		color: #586069;
-	}
-
-	#box #language {
-		display: inline-flex;
-		margin-left: 20px;
-	}
-
-	#box #language #circle {
-		width: 13.5px;
-		height: 13.5px;
-		border-radius: 50px;
-		background-color: #3572A5;
-	}
-
-	#box #language #lang{
-		color: #586069;
-		margin-top: -3.5px;
-		margin-left: 7px;
-		font-size: 15px;
 	}
 
 }
