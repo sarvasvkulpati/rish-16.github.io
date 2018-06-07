@@ -64,9 +64,6 @@ a {
 #intro #introPara span {
 	font-weight: 600;
 	color: rgb(182, 182, 182);
-}
-
-#intro #introPara span:hover {
 	border-bottom: 1px solid rgb(182, 182, 182);
 }
 
@@ -142,11 +139,7 @@ a {
 #publications #about span {
 	font-weight: 600;
 	color: rgb(244, 244, 244);
-}
-
-#publications #about span:hover {
 	border-bottom: 1px solid rgba(244, 244, 244, 0.4);
-	transition: 0.5s;
 }
 
 #publications #art #container {
@@ -288,11 +281,7 @@ a {
 #projects #about span {
 	font-weight: 600;
 	color: rgb(244, 244, 244);
-}
-
-#projects #about span:hover {
 	border-bottom: 1px solid rgba(244, 244, 244, 0.4);
-	transition: 0.5s;
 }
 
 #projects #art #container {
@@ -415,9 +404,6 @@ a {
 	#intro #introPara span {
 		font-weight: 600;
 		color: rgb(182, 182, 182);
-	}
-
-	#intro #introPara span:hover {
 		border-bottom: 1px solid rgb(182, 182, 182);
 	}
 
@@ -493,11 +479,7 @@ a {
 	#publications #about span {
 		font-weight: 600;
 		color: rgb(244, 244, 244);
-	}
-
-	#publications #about span:hover {
 		border-bottom: 1px solid rgba(244, 244, 244, 0.4);
-		transition: 0.5s;
 	}
 
 	#publications #art #container {
