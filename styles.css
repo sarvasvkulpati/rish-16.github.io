@@ -24,7 +24,7 @@ body {
 
 a {
 	text-decoration: none;
-	color: black;
+	color: #fff;
 }
 
  p {
@@ -78,7 +78,7 @@ a {
 	font-size: 17px;
 	line-height: 30px;
 	padding: 0;
-	margin: 0 auto;
+	margin: 20px auto;
 }
 
 #about #about-text span {
@@ -120,7 +120,7 @@ a {
 
 #section-content {
 	width: 50%;
-	color: rgb(235, 235, 235);
+	color: #fff;
 	font-size: 17px;
 	line-height: 30px;
 	padding: 0 0 20px 0;
@@ -129,6 +129,7 @@ a {
 
 #section-content span {
 	font-weight: 600;
+	color: #fff;
 }
 
 #section-content span:hover {
@@ -214,7 +215,7 @@ a {
 
 .card .card-center {
 	position: relative;
-	width: 100%;
+	width: 300px;
 	height: 150px;
 	display: flex;
 	flex-direction: row;
@@ -228,6 +229,36 @@ a {
 	padding: 0;
 }
 
+.card #p1 {
+	background-image: url('images/catgan.png');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: contain !important;	
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.card #p2 {
+	background-image: url('images/tfjs.png');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: contain !important;	
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.card #p3 {
+	background-image: url('images/tensorflow.png');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: contain !important;	
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
 .card .card-bottom {
 	position: relative;
 	width: 100%;
@@ -237,7 +268,7 @@ a {
 
 .card .card-bottom .article-title {
 	font-weight: bold;
-	font-size: 19px;
+	font-size: 20px;
 	padding: 10px;
 }
 
@@ -251,6 +282,8 @@ a {
 	font-size: 13px;
 	color: #767676;
 	padding: 10px;
+	position: absolute;
+	bottom: 5px;
 }
 
 .card:hover {
@@ -335,4 +368,97 @@ a {
 .project-card:hover {
 	transform: scale(1.05);
 	transition: 0.5s;
+}
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+#footer {
+	width: 100%;
+	height: 75px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+#footer #footer-text {
+	color: #272727;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+}
+
+#footer #footer-text i {
+	font-size: 14px;
+}
+
+#footer #footer-text i:first-child {
+	color: #f7b731;
+}
+
+#footer #footer-text i:nth-child(2) {
+	color: #ff6b6b;
+}
+
+#footer #footer-text span {
+	font-weight: 700;
+}
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+@media (max-width: 700px) {
+
+	#header #name {
+		padding: 0;
+		margin: 0;
+		font-size: 47px;
+		letter-spacing: 10px;
+		font-weight: 600;
+		color: #272727;
+	}
+	
+	#header #job {
+		padding: 0;
+		margin: 0;
+		font-size: 12px;
+		color: #767676;
+	}
+
+	#about {
+		height: 400px;	
+	}
+
+	#about #about-text {
+		width: 85%;
+		color: gray;
+		font-size: 17px;
+		line-height: 30px;
+		padding: 20px 0 0 0;
+		margin: 20px auto 0 auto;
+	}	
+
+	#about #social-media {
+		width: 65%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		margin: 40px auto;
+	}
+
+	#section-content {
+		width: 85%;
+		color: #fff;
+		font-size: 17px;
+		line-height: 30px;
+		padding: 0 0 20px 0;
+		margin: 0 auto;	
+	}
+
+	.project-card {
+		width: 325px;
+		border-radius: 5px;
+		text-align: left;
+		background-color: #fff;
+		margin: 15px auto;
+	}
 }
