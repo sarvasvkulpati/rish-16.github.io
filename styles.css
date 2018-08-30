@@ -1,5 +1,5 @@
 /*
-Copyright 2017 Rishabh Anand. All Rights Reserved.
+Copyright 2018 Rishabh Anand. All Rights Reserved.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -15,7 +15,6 @@ limitations under the License.
 ==============================================================================
 */
 
-
 body {
 	font-family: Avenir Next;
 	margin: 0;
@@ -27,16 +26,24 @@ a {
 	color: #fff;
 }
 
- p {
-	 padding: 0;
-	 margin: 0;
+p {
+	padding: 0;
+	margin: 0;
+}
+
+* {
+	user-select: none;
+}
+
+img {
+	pointer-events: none;
 }
 
 /* --------------------------------------------------------------------------------------------------------- */
 
 #header {
 	width: 100%;
-	height: 200px;
+	height: 50%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -47,7 +54,7 @@ a {
 #header #name {
 	padding: 0;
 	margin: 0;
-	font-size: 60px;
+	font-size: 52px;
 	letter-spacing: 10px;
 	font-weight: 600;
 	color: #272727;
@@ -56,15 +63,22 @@ a {
 #header #job {
 	padding: 0;
 	margin: 0;
-	font-size: 16px;
+	font-size: 17px;
 	color: #767676;
+}
+
+#header #face-img {
+	width: 110px;
+	height: 110px;
+	border-radius: 100%;
+	margin: 15px auto;
 }
 
 /* --------------------------------------------------------------------------------------------------------- */
 
 #about {
 	width: 100%;
-	height: 375px;
+	height: 50%;
 	background-color: white;
 	display: flex;
 	flex-direction: column;
@@ -112,7 +126,7 @@ a {
 /* --------------------------------------------------------------------------------------------------------- */
 
 #section-title {
-	font-size: 45px;
+	font-size: 40px;
 	font-weight: 600;
 	padding: 20px;
 	color: white;
@@ -411,7 +425,7 @@ a {
 	#header #name {
 		padding: 0;
 		margin: 0;
-		font-size: 47px;
+		font-size: 40px;
 		letter-spacing: 10px;
 		font-weight: 600;
 		color: #272727;
@@ -420,7 +434,7 @@ a {
 	#header #job {
 		padding: 0;
 		margin: 0;
-		font-size: 12px;
+		font-size: 13px;
 		color: #767676;
 	}
 
