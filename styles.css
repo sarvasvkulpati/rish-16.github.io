@@ -342,6 +342,7 @@ img {
 
 .project-card {
 	width: 390px;
+	height:120px;
 	border-radius: 5px;
 	text-align: left;
 	background-color: #fff;
